@@ -4,11 +4,16 @@
   "description": "Timeline uygulaması",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "play": "nodemon src/playground/index.js",
+    "start": "nodemon src/index.js"
   },
   "author": "codesignist",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   }
 }
